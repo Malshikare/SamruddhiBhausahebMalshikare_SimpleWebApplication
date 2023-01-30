@@ -1,0 +1,171 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: #000;
+}
+
+header {
+  padding: 10px 100px;
+  box-sizing: border-box;
+}
+
+section {
+  width: 100%;
+  height: 100vh;
+}
+
+section.sec1 {
+  background: url("https://www.businessgujaratnews.com/wp-content/uploads/2021/04/20D_Virtualwaves_PLP_banner_app.jpg");
+  background-size: cover;
+}
+
+section.sec2 {
+  padding: 100px;
+  box-sizing: border-box;
+  height: auto;
+}
+
+section.sec2 h2 {
+  font-size: 3em;
+  margin: 0;
+  padding: 0 0 20px;
+  color: #fff;
+}
+
+section.sec2 p {
+  font-size: 1.2em;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
+
+nav {
+  width: 100%;
+  height: 50px;
+  background: rgba(0,0,0, .8);
+  border-top: 1px solid rgba(255,255,255, .2);
+  border-bottom: 1px solid rgba(255,255,255, .2);
+  position: sticky;
+  top: 0;
+}
+
+nav ul {
+  display: flex;
+  margin: 0;
+  padding: 0 100px;
+  justify-content: flex-end;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul li a {
+  display: block;
+  color: #fff;
+  padding: 0 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  line-height: 50px; 
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+  background: rgb(72, 38, 38);
+  
+} 
+
+.site-footer
+{
+  background-color:#26272b;
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:#737373;
+}
+.site-footer hr
+{
+  border-top-color:#bbb;
+  opacity:0.5
+}
+.site-footer hr.small
+{
+  margin:20px 0
+}
+.site-footer h6
+{
+  color:#fff;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px
+}
+.site-footer a
+{
+  color:#737373;
+}
+.site-footer a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links
+{
+  padding-left:0;
+  list-style:none
+}
+.footer-links li
+{
+  display:block
+}
+.footer-links a
+{
+  color:#737373
+}
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links.inline li
+{
+  display:inline-block
+}
+.site-footer .social-icons
+{
+  text-align:right
+}
+.site-footer .social-icons a
+{
+  width:40px;
+  height:40px;
+  line-height:40px;
+  margin-left:6px;
+  margin-right:0;
+  border-radius:100%;
+  background-color:#33353d
+}
+.copyright-text
+{
+  margin:0
+}
+@media (max-width:991px)
+{
+  .site-footer [class^=col-]
+  {
+    margin-bottom:30px
+  }
+}
+@media (max-width:767px)
+{
+  .site-footer
+  {
+    padding-bottom:0
+  }
+  .site-footer .copyright-text,.site-footer .social-icons
+  {
+    text-align:center
+  }
+}
